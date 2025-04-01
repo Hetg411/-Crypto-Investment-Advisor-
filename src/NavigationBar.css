@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+}
+.Navigation{
+   border: 1px solid rgb(12, 12, 12);
+   height: 5vmax;
+   width: 99.9vw;
+   display: flex;
+   justify-content: space-between;
+}
+.name{
+    margin:auto;
+    margin-left: 2vw;
+    font-size:xx-large;
+    font-weight:bold;
+    color: black;
+    
+}
+.Button{
+margin: auto;
+margin-right: 1vw;
+
+}
+
+.home,.about,.invest{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    font-size:small;
+}

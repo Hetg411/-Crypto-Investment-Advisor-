@@ -1,0 +1,23 @@
+.Heading {
+    text-align: center; 
+    margin-top: 7vmax;
+    margin-bottom: 40px; 
+}
+
+.Heading h2 {
+    font-size: 24px; 
+    font-weight: normal;
+}
+
+.Heading h1 {
+    font-size: 40px; 
+    font-weight: bold;
+}
+
+.Heading p {
+    font-size: 18px; 
+    max-width: 600px; 
+    margin: 10px auto; 
+    line-height: 1.5; 
+    color: #555; 
+}

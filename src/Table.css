@@ -1,0 +1,46 @@
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 4vmax;
+    font-size: 18px;
+    text-align: left;
+    background-color: #b9b9b9; /* Light gray background */
+    color: #ffffff; /* White text */
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+thead {
+    background-color: #434242; /* Darker header */
+}
+
+th, td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #333; /* Subtle row separation */
+}
+
+th {
+    font-weight: bold;
+}
+
+tbody tr:hover {
+    background-color: #706f6f; /* Row hover effect */
+}
+
+tbody tr:last-child td {
+    border-bottom: none; /* Remove last row border */
+}
+
+td img {
+    vertical-align: middle;
+    margin-right: 10px; /* Adds spacing between the image and text */
+}
+
+/* Ensure the coin name and image stay in a single row */
+td:nth-child(2) {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adds spacing between image and text */
+    white-space: nowrap; /* Prevents text from wrapping */
+}

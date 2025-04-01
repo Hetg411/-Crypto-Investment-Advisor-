@@ -1,0 +1,7 @@
+.bg{margin: auto;
+    display: flex;
+    justify-content: center;
+    padding:15px 5vmax 15px 5vmax;
+    border-radius: 10px;
+    font-size: larger;
+}
