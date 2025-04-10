@@ -2,6 +2,18 @@ import { useEffect, useState } from "react"
 import style from "./About_Input.module.css"
 import { Investmet } from "./Calculate_Safe_Investment";
 export default function About_Input(){
+    let [future_value,setfuture_value]=useState(0);
+
+    useEffect(() => {
+        fetch("/Prediction/route?investment=2000&duration=60")
+          .then(res => res.json())
+          .then(data => {
+            setfuture_value(data);
+            console.log(data);
+          })
+          .catch(error => console.error("Error fetching prediction:", error));
+    }, []);
+    
     let [risk,setrisk]=useState("");
     let eventhandle=(event)=>{
         setrisk(event.target.value);
