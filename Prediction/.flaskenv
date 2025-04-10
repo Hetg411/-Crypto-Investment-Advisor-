@@ -1,0 +1,2 @@
+FLASK_APP=newfile.py
+FLASK_DEBUG=1
